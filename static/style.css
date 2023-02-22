@@ -1,0 +1,144 @@
+body {
+  background-color: #f9f9f9;
+}
+
+/* Center the login form on the page */
+.form1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+  animation: scale-up 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+/* Style the input fields and labels */
+label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 20px;
+  margin: 20px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  background-color: #e0e0e0;
+}
+
+/* Style the Login button */
+input[type="submit"] {
+  background-color: #007aff;
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #0064d6;
+}
+
+/* Style the Sign Up button */
+button {
+  background-color: transparent;
+  color: #007aff;
+  padding: 20px;
+  border: 2px solid #007aff;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #007aff;
+  color: white;
+}
+
+/* Animation for scaling up the login form */
+@keyframes scale-up {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
+  max-width: 300px;
+  margin: auto;
+  text-align: left;
+  color: floralwhite;
+  position: relative;
+  right: 42%;
+}
+
+.delete {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
+  max-width: 100px;
+  margin: auto;
+  text-align: left;
+  color: floralwhite;
+  position: relative;
+  left: 42%;
+}
+body {
+  background-color: #282828;
+}
+
+.title {
+  color: floralwhite;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: floralwhite;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
